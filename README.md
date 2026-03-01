@@ -436,7 +436,7 @@ It forms the foundation for enterprise-level observability systems.
 
 ---
 
-# Interview Explanation (2-Minute Version)
+# Interview Explanation
 
 This project implements a production-grade EC2 monitoring and logging system using AWS-managed services. CloudWatch collects infrastructure metrics and evaluates CPU thresholds using alarms. When sustained abnormal usage is detected, SNS triggers automated email alerts. Logs from AWS-managed services are centralized in CloudWatch Logs and streamed to S3 via Kinesis Data Firehose for secure long-term archival. The architecture avoids agents, uses IAM role-based access, and follows least-privilege security best practices.
 
@@ -447,4 +447,5 @@ This project implements a production-grade EC2 monitoring and logging system usi
 Designed and implemented a production-grade AWS EC2 monitoring, alerting, and logging architecture using CloudWatch, SNS, S3, and Kinesis Data Firehose. Built an automated observability pipeline with CPU-based alarms, real-time email notifications, centralized log ingestion, and secure long-term archival while applying IAM least-privilege principles and cloud security best practices.
 
 ---
+
 
